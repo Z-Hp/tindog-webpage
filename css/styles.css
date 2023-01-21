@@ -1,22 +1,38 @@
 :root {
   --primary-font-family: "Montserrat", sans-serif;
   --secondary-font-family: "Ubuntu", sans-serif;
+  --primary-color: #ff4c68;
+  --secondary-color: #ef8172;
 }
 
 body {
   font-family: var(--primary-font-family);
 }
 
-/******************************************* Section 1 : Title *******************************/
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
 h1 {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/******************** Section 1 : Title *****************/
+#title {
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 .container-fluid {
@@ -50,4 +66,35 @@ h1 {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/******************** Section 2 : Features *****************/
+#features {
+  padding: 7% 15%;
+}
+
+.box-features {
+  padding: 5%;
+}
+
+.icon {
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: var(--primary-color);
+}
+
+/******************** Section 3 : Testimonials *****************/
+#testimonials {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
 }
