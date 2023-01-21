@@ -90,11 +90,25 @@ p {
 #testimonials {
   background-color: var(--secondary-color);
   color: #fff;
-  padding: 7% 15%;
 }
 
 .testimonial-img {
   border-radius: 100%;
   margin: 20px;
   width: 10%;
+}
+
+/******************** Section 4 : Press *****************/
+#press {
+  background-color: var(--secondary-color);
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
