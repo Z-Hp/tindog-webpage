@@ -126,3 +126,10 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* ******************** Section 5 : Pricing ***************** */
+#cta {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding-top: 3%;
+}
