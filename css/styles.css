@@ -1,8 +1,10 @@
 :root {
   --primary-font-family: "Montserrat", sans-serif;
   --secondary-font-family: "Ubuntu", sans-serif;
-  --primary-color: #ff4c68;
-  --secondary-color: #ef8172;
+  /* --primary-color: #ff4c68 ; */
+  --primary-color: #400082;
+  /* --secondary-color: #ef8172; */
+  --secondary-color: #400082;
 }
 
 body {
@@ -61,6 +63,10 @@ p {
 .btn-download {
   font-size: 1.5rem;
   margin: 5% 3% 5% 0;
+  background: #00bdaa;
+}
+.btn-download:hover {
+  background-color: #fe346e;
 }
 
 .title-img {
@@ -87,7 +93,8 @@ p {
 }
 
 .icon:hover {
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: #fe346e;
 }
 
 /******************** Section 3 : Testimonials *****************/
