@@ -1,10 +1,12 @@
 :root {
   --primary-font-family: "Montserrat", sans-serif;
   --secondary-font-family: "Ubuntu", sans-serif;
+  --hero-color: #400082;
   /* --primary-color: #ff4c68 ; */
   --primary-color: #400082;
   /* --secondary-color: #ef8172; */
-  --secondary-color: #400082;
+  --secondary-color: #00bdaa;
+  --hover-color: #fe346e;
 }
 
 body {
@@ -33,7 +35,7 @@ p {
 
 /******************** Section 1 : Title *****************/
 #title {
-  background-color: var(--primary-color);
+  background-color: var(--hero-color);
   color: #fff;
 }
 
@@ -63,10 +65,10 @@ p {
 .btn-download {
   font-size: 1.5rem;
   margin: 5% 3% 5% 0;
-  background: #00bdaa;
+  background: var(--secondary-color);
 }
 .btn-download:hover {
-  background-color: #fe346e;
+  background-color: var(--hover-color);
 }
 
 .title-img {
@@ -88,18 +90,18 @@ p {
 }
 
 .icon {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   margin-bottom: 1rem;
 }
 
 .icon:hover {
   /* color: var(--primary-color); */
-  color: #fe346e;
+  color: var(--hover-color);
 }
 
 /******************** Section 3 : Testimonials *****************/
 #testimonials {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: #fff;
 }
 
@@ -111,7 +113,7 @@ p {
 
 /******************** Section 4 : Press *****************/
 #press {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   padding-bottom: 3%;
 }
 
@@ -137,6 +139,6 @@ p {
 /* ******************** Section 6 : cta ***************** */
 #cta {
   text-align: center;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   padding-top: 3%;
 }
