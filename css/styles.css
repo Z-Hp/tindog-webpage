@@ -9,6 +9,16 @@
   --hover-color: #fe346e;
 }
 
+.colored-section {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+  color: black;
+}
+
 body {
   font-family: var(--primary-font-family);
 }
@@ -81,7 +91,7 @@ p {
 /******************** Section 2 : Features *****************/
 #features {
   padding: 7% 15%;
-  background-color: #fff;
+
   position: relative;
 }
 
@@ -95,15 +105,13 @@ p {
 }
 
 .icon:hover {
-  /* color: var(--primary-color); */
   color: var(--hover-color);
 }
 
 /******************** Section 3 : Testimonials *****************/
-#testimonials {
-  background-color: var(--primary-color);
-  color: #fff;
-}
+/* #testimonials {
+  
+} */
 
 .testimonial-img {
   border-radius: 100%;
@@ -113,7 +121,6 @@ p {
 
 /******************** Section 4 : Press *****************/
 #press {
-  background-color: var(--primary-color);
   padding-bottom: 3%;
 }
 
@@ -139,6 +146,5 @@ p {
 /* ******************** Section 6 : cta ***************** */
 #cta {
   text-align: center;
-  background-color: var(--primary-color);
   padding-top: 3%;
 }
