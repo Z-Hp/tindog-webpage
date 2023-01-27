@@ -72,8 +72,11 @@ h3 {
   font-weight: 100;
 }
 
-.btn-download {
+.btn-lg {
   font-size: 1.5rem;
+}
+
+.btn-download {
   margin: 5% 3% 5% 0;
   background: var(--secondary-color);
 }
@@ -146,5 +149,90 @@ h3 {
 /* ******************** Section 6 : cta ***************** */
 #cta {
   text-align: center;
-  padding-top: 3%;
+  padding: 30px;
+}
+
+/* ******************** Media Qurey ***************** */
+@media (max-width: 1300px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+  }
+
+  .title-img {
+    position: absolute;
+    right: 260px;
+  }
+}
+
+@media (max-width: 990px) {
+  .container-fluid {
+    padding-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn-lg {
+    font-size: 0.8rem;
+  }
+
+  .title-img {
+    position: absolute;
+    right: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    transform: rotate(0deg);
+    position: static;
+    width: 80%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-fluid {
+    padding: 10px 25px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .press-logo {
+    width: 10%;
+  }
+
+  #pricing {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+  button {
+    font-size: 1rem;
+  }
 }
